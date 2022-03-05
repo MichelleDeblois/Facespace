@@ -40,6 +40,7 @@ export default createGlobalStyle`
     }
     body {
         line-height: 1;
+        background-color: black;
     }
     ol, ul {
         list-style: none;
@@ -53,8 +54,8 @@ export default createGlobalStyle`
         content: none;
     }
     h1, h2, h3 {
-      color: var(--primary-color);
-      font-family: var(--heading-font-family);
+      color: #FFF8B5;
+      font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     }
     h2 {
       font-size: 28px;
