@@ -1,6 +1,4 @@
 import React, { useEffect, useState } from "react";
-import { useParams } from "react-router";
-import UserProfile from "./UserProfile";
 import { useNavigate } from "react-router";
 import styled from "styled-components";
 

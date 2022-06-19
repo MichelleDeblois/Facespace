@@ -2,12 +2,7 @@ import React, { useState } from "react";
 import { useNavigate } from "react-router-dom";
 import ErrorMessage from "./ErrorMessage";
 import styled from "styled-components";
-const SignInPage = ({
-  signInName,
-  setSignInName,
-  setUserFriends,
-  userFriends,
-}) => {
+const SignInPage = ({ setSignInName, setUserFriends }) => {
   let navigate = useNavigate();
   const [nameSignIn, setNameSignIn] = useState("");
   const [isSignedIn, setIsSignedIn] = useState("");

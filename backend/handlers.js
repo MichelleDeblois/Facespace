@@ -41,8 +41,6 @@ const updateUser = (req, res) => {
   sendResponse(res, 200, res.locals.users[index], "user updated.");
 };
 
-// We don't believe in actually deleting data... we so bad...
-// instead we add a 'deleted' flag to the object. hehehe and we sneaky...
 const deleteUser = (req, res) => {
   const userId = req.params.id;
   const index = findUserIndex(res.locals.users, userId);
@@ -52,8 +50,6 @@ const deleteUser = (req, res) => {
   sendResponse(res, 200, null, "user deleted.");
 };
 
-// PATCH. requires the ids of 2 people to make them friends
-// ids should be sent along as an array called newFriends in the body
 const handleFriends = (req, res) => {
   const [userId_1, userId_2] = req.body.newFriends;
   const user_1 = findUser(res.locals.users, userId_1);
