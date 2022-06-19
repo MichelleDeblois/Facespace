@@ -44,4 +44,4 @@ effect on hover.
 
 When a user is signed in and looking at the homepage, there is a visual indication as to who their friends are in the grid of faces.
 
-<img src="./_screenshots/HomePage-Sign-in.jpeg" />
+<img src="./_screenshots/Homepage-Sign-in.jpeg" />
